@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dota 2 Meta Report for Patch 7.38b. Discover hero changes, item updates, and best strategies.">
+  <meta name="keywords" content="Dota 2, Patch 7.38b, hero changes, strategy, roles">
+  <meta name="robots" content="index, follow">
+  <title>Dota 2 Meta Report - Patch 7.38b</title>
+  <style>
+    body {
+      margin: 0;
+      color: white;
+      font-family: Arial, sans-serif;
+      background-image: url("https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(15, 15, 15, 0.95);
+      padding: 12px 24px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+    }
+    nav .logo img {
+      height: 40px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-right: 24px;
+    }
+    nav ul li a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+	margin-right: 24px;
+    }
+    nav ul li a:hover {
+      color: #fff;
+    }
+
+    header {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      margin-top: 64px;
+    }
+    header video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.4);
+    }
+    .overlay-text {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+    .overlay-text h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    .overlay-text p {
+      font-size: 24px;
+      font-style: italic;
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .button-container a {
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .pseudo-button {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 15px 30px;
+      background: linear-gradient(to right, #d93c3c, #7f1d1d);
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      border: 2px solid #ff4e4e;
+      width: fit-content;
+    }
+
+    .pseudo-button:hover {
+      background: linear-gradient(to right, #ff5c5c, #b92e2e);
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(255, 80, 80, 0.6);
+    }
+
+    .custom-divider {
+      width: 100%;
+      height: 8px;
+      background: linear-gradient(to bottom, #ff0000 1px, #1b1b1b 10px,#111 100%);
+      box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+    }
+    footer img {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ХЕДЕР как в Dota 2 -->
+  <nav>
+    <div class="logo">
+      <a href="https://www.dota2.com/home">
+        <img src="media/dota logo png.png" alt="Dota 2 Logo">
+      </a>
+    </div>
+    <ul>
+      <li><a href="https://www.dota2.com/patches">Patch Notes</a></li>
+      <li><a href="https://www.dota2.com/heroes">Heroes</a></li>
+      <li><a href="https://www.dota2.com/items">Items</a></li>
+      <li ><a href="https://www.dota2.com/esports" style = "margin-right=40px;">Esports</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <video src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/patch738/patch738_header.mp4"
+      autoplay muted loop></video>
+    <div class="overlay-text">
+      <h1>Dota 2 Meta Report 7.38b</h1>
+      <p>Master the Meta. Dominate Every Game.</p>
+    </div>
+  </header>
+
+  <div class="custom-divider"></div>
+
+  <div class="button-container">
+    <div style="display: flex; justify-content: center;">
+      <a href="all.html"><img src="media/all.png" alt="All Roles"></a>
+      <a href="pos 1.html"><img src="media/pos 1.png" alt="Position 1"></a>
+      <a href="pos 2.html"><img src="media/pos 2.png" alt="Position 2"></a>
+    </div>
+    <div style="display: flex; justify-content: center; margin-top: 10px;">
+      <a href="pos 3.html"><img src="media/pos 3.png" alt="Position 3"></a>
+      <a href="pos 4.html"><img src="media/pos 4.png" alt="Position 4"></a>
+      <a href="pos 5.html"><img src="media/pos 5.png" alt="Position 5"></a>
+    </div>
+  </div>
+
+  <div class="pseudo-button" onclick="window.location.href='https://www.dota2.com/wanderingwaters'" style="display: flex; justify-content: center; margin-top: 10px;">
+    Explore Wandering Waters
+  </div><br>
+	  <a href="test.html"> <div class="pseudo-button" style="display: flex; justify-content: center; margin-top: 10px;">
+    test
+  </div></a>
+
+
+  <footer>
+    <div>
+      <a href="https://www.valvesoftware.com/en/about">
+        <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/valve_logo.png" alt="Valve Logo" width="80">
+      </a>
+      <a href="https://www.dota2.com/home">
+        <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/dota_footer_logo.png" alt="Dota Footer Logo" width="80">
+      </a>
+    </div>
+    <p>Dota and the Dota logo are trademarks and/or registered trademarks of Valve Corporation. © 2025 Valve Corporation, all rights reserved.</p>
+  </footer>
+
+</body>
+</html>

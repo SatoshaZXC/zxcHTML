@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position 2 (mid) Meta Report</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+       background-image: url("https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg");
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .back-button img {
+      width: 40px;
+    }
+
+    table {
+      width: 100%;
+      height: 100%;
+      background-image: url("https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px; /* Відступи між стовпцями */
+      padding: 40px 200px;
+    }
+
+    .column {
+      flex: 1; /* Всі стовпці однакової ширини */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .column img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    }
+ footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+    }
+    footer img {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body style="background-image: url("https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg");">
+
+  <header>
+    <button class="back-button" onclick="window.location.href='index.html'">
+      <img src="media/dota logo png.png" alt="Dota 2 Logo">
+    </button>
+    <h1>Position 2 (mid) Meta Report</h1>
+  </header>
+
+ 
+
+  <div class="container" style="display: flex; justify-content: space-between; gap: 20px;">
+  <!-- Левый столбец -->
+  <div class="column" style="flex: 1;">
+    <a href="https://dota2protracker.com/hero/Dazzle"  style="width: 100%; height: 100%;"><img src="media/dazle mid.png" alt="Dazzle Mid" style="width: 100%; height: 100%;"></a>
+
+    <div style=" border-radius: 10px; padding: 10px; margin-top: 10px;">
+      <div style="display: flex;">
+       <img src="media/DAZA12.jpg" alt="Match 1" style="width: 100%; height: auto;">
+        
+      </div>
+      <img src="media/DAZB.jpg" alt="Match 3" style="width: 100%; height: auto; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Центральный столбец -->
+  <div class="column" style="flex: 1;">
+    <a href="https://dota2protracker.com/hero/Huskar"  style="width: 100%; height: 100%;"><img src="media/huskar mid.png" alt="Huskar Mid" style="width: 100%; height: auto;"></a>
+
+    <div style=" border-radius: 10px; padding: 10px; margin-top: 10px;">
+      <div style="display: flex;">
+         <img src="media/HUSKA.jpg" alt="Match 1" style="width: 100%; height: auto;">
+        
+      </div>
+      <img src="media/HUSKB.jpg" alt="Match 3" style="width: 100%; height: auto; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Правый столбец -->
+  <div class="column" style="flex: 1;">
+    <a href="https://dota2protracker.com/hero/Monkey%20King"  style="width: 100%; height: 100%;"><img src="media/monkey mid.png" alt="Monkey King Mid" style="width: 100%; height: auto;"></a>
+
+    <div style=" border-radius: 10px; padding: 10px; margin-top: 10px;">
+      <div style="display: flex;">
+        <img src="media/MKA.jpg" alt="Match 1" style="width: 100%; height: auto;">
+        
+      </div>
+      <img src="media/MKB.jpg" alt="Match 3" style="width: 100%; height: auto; margin-top: 10px;">
+    </div>
+  </div>
+</div>
+<footer>
+    <div>
+      <a href="https://www.valvesoftware.com/en/about">
+        <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/valve_logo.png" alt="Valve Logo" width="80">
+      </a>
+      <a href="https://www.dota2.com/home">
+        <img src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/dota_footer_logo.png" alt="Dota Footer Logo" width="80">
+      </a>
+    </div>
+    <p>Dota and the Dota logo are trademarks and/or registered trademarks of Valve Corporation. © 2025 Valve Corporation, all rights reserved.</p>
+  </footer>
+</body>
+</html>
